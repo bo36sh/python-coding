@@ -90,5 +90,12 @@ while True:
         u2.info()
     elif choice == "5":
         u2.creatATM()
+    elif choice == "6":
+        phone == input("enter your phone number")
+        u2.phonenumber(phone)
+    elif choice == "7":
+        addr = input("enter your address")
+        u2.regaddress(addr)
     else:
         print("choose between options above")
+        exit()
